@@ -59,12 +59,6 @@ The project uses the following datasets:
 - **AdventureWorks2019**: A fictional sales and manufacturing database provided by Microsoft, containing detailed sales, product, and customer data.
 - **Google Analytics Public Data**: Sample data from Google's BigQuery public datasets, offering insights into eCommerce user behavior.
 
-## How to Use
-1. Clone the repository.
-2. Import the AdventureWorks2019 database into your SQL environment.
-3. Run the SQL queries provided in `sales_analysis_project.sql`.
-4. Customize or extend queries to meet specific analytical needs.
-
 ## Insights Gained
 - Subcategories with the highest sales contributions.
 - Regions driving the most sales.
@@ -73,5 +67,5 @@ The project uses the following datasets:
 - Key trends in customer acquisition and retention.
 
 ## Conclusion
-This project highlights the power of SQL in transforming raw data into actionable insights. By analyzing trends, evaluating performance, and identifying key drivers of business success, this project serves as a blueprint for data-driven decision-making in sales and marketing.
+By analyzing trends, evaluating performance, and identifying key drivers of business success, this project serves as a blueprint for data-driven decision-making in sales and marketing.
 
