@@ -3,6 +3,13 @@
 ## Overview
 This project demonstrates the use of SQL to analyze sales data from the AdventureWorks2019 database and Google Analytics datasets. By leveraging advanced SQL techniques, the project uncovers key business insights, including sales trends, customer acquisition patterns, inventory management metrics, and the effectiveness of promotions. The analysis helps inform data-driven decision-making to optimize business performance.
 
+## Project Details:
+- Platform: Google BigQuery
+- Dataset: Google Analytics
+- Schema Reference: [Google Analytics Schema] (https://support.google.com/analytics/answer/3437719?hl=en)
+- SQL Format Elements: [BigQuery Standard SQL] (https://cloud.google.com/bigquery/docs/reference/standard-sql/format-elements)
+- My BigQuery Project Link: [AdventureWorks Sales Analysis Project](https://console.cloud.google.com/bigquery?sq=96321305112:ec7c7ec038c546edb6ca3b88c2944115)
+
 ## Key Objectives
 1. Analyze monthly and yearly sales trends.
 2. Identify high-performing subcategories and regions.
