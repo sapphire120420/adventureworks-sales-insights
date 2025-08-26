@@ -1,4 +1,4 @@
--- ### Question 1: Monthly Sales Summary by Product Subcategory
+-- ### Monthly Sales Summary by Product Subcategory
 -- This query calculates the total sales, order quantity, and distinct order count per product subcategory for each month.
 WITH raw_data AS (
   SELECT
@@ -25,7 +25,7 @@ ORDER BY period DESC, sub_category_name;
 -- **Observation:**
 -- Monthly performance metrics help identify subcategories that contribute most to sales. Businesses can use this to optimize inventory.
 
--- ### Question 2: Yearly Sales Growth Analysis by Subcategory
+-- ### Yearly Sales Growth Analysis by Subcategory
 WITH raw_data AS (
   SELECT
     sale_det.SalesOrderID,
@@ -56,7 +56,7 @@ LIMIT 3;
 -- **Observation:**
 -- This analysis identifies the subcategories with the highest growth rates, supporting strategic marketing campaigns.
 
--- ### Question 3: Top Territories by Order Volume
+-- ### Top Territories by Order Volume
 WITH raw_data AS (
   SELECT 
     EXTRACT(YEAR FROM sale_det.ModifiedDate) AS year,
@@ -81,7 +81,7 @@ ORDER BY year;
 -- **Observation:**
 -- This query highlights the territories with the highest sales, helping prioritize regional sales strategies.
 
--- ### Question 4: Total Discount Costs by Subcategory
+-- ### Total Discount Costs by Subcategory
 WITH raw_data AS (
   SELECT
     EXTRACT(YEAR FROM sales_det.ModifiedDate) AS year,
@@ -112,7 +112,7 @@ ORDER BY year;
 -- **Observation:**
 -- This query measures the financial impact of discounts on various product subcategories to refine discount strategies.
 
--- ### Question 5: Tracking New Customers by Month
+-- ### Tracking New Customers by Month
 WITH raw_data AS (
   SELECT
     EXTRACT(MONTH FROM ModifiedDate) AS mth,
@@ -154,14 +154,3 @@ ORDER BY mth_join, mth_diff;
 -- **Observation:**
 -- Helps track customer acquisition trends over months, enabling retention strategies.
 
--- ### SQL Skills Highlighted
--- This project demonstrates the use of a variety of SQL skills, including:
--- - **Window Functions**: Used for calculating metrics like growth rates, ranks, and tracking changes over time (e.g., LAG, ROW_NUMBER, DENSE_RANK).
--- - **Aggregate Functions**: Summarizing data to provide business insights (e.g., SUM, COUNT, ROUND).
--- - **Date and Time Functions**: Extracting and formatting dates for time-based analysis (e.g., EXTRACT, FORMAT_DATE).
--- - **Conditional Aggregation**: Creating metrics like add-to-cart rates and purchase rates using CASE statements.
--- - **Joins and Subqueries**: Combining multiple tables to derive meaningful relationships and intermediate datasets.
--- - **CTEs (Common Table Expressions)**: Enhancing query readability and managing complex calculations.
-
--- **Conclusion:**
--- This project showcases how SQL can transform raw datasets into actionable insights. By analyzing key performance metrics like sales growth, discounts, customer acquisition, and inventory, businesses can make data-driven decisions for sustained growth.
