@@ -7,10 +7,10 @@ This project demonstrates the use of SQL to analyze sales data from the Adventur
 
 ## 🔄 Project Details
 
-- **Platform**: Google BigQuery
-- **Schema Reference**: [Google Analytics Schema](https://support.google.com/analytics/answer/3437719?hl=en)
-- **SQL Format Elements**: [BigQuery Standard SQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/format-elements)
-- **My BigQuery Project Link**: [AdventureWorks Sales Analysis Project](https://console.cloud.google.com/bigquery?sq=96321305112:ec7c7ec038c546edb6ca3b88c2944115)
+- Platform: Google BigQuery
+- Schema Reference: [Google Analytics Schema](https://support.google.com/analytics/answer/3437719?hl=en)
+- SQL Format Elements: [BigQuery Standard SQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/format-elements)
+- My BigQuery Project Link: [AdventureWorks Sales Analysis Project](https://console.cloud.google.com/bigquery?sq=96321305112:ec7c7ec038c546edb6ca3b88c2944115)
 
 
 ## 🔎 Business Objectives
@@ -25,12 +25,12 @@ This project demonstrates the use of SQL to analyze sales data from the Adventur
 
 ## 🔧 SQL Skills Demonstrated
 
-- **Window Functions**: For calculations such as growth rates, ranks, and time-based metrics (e.g., `LAG`, `ROW_NUMBER`, `DENSE_RANK`).
-- **Common Table Expressions (CTEs)**: Simplify complex queries and improve readability.
-- **Date and Time Functions**: Analyze trends over time using functions like `EXTRACT` and `FORMAT_DATE`.
-- **Conditional Aggregation**: Create calculated metrics like conversion rates using `CASE` statements.
-- **Joins**: Combine multiple tables to derive meaningful insights.
-- **Recursive Queries**: Build hierarchies, such as product category relationships.
+- Window Functions: For calculations such as growth rates, ranks, and time-based metrics (e.g., `LAG`, `ROW_NUMBER`, `DENSE_RANK`).
+- Common Table Expressions (CTEs): Simplify complex queries and improve readability.
+- Date and Time Functions: Analyze trends over time using functions like `EXTRACT` and `FORMAT_DATE`.
+- Conditional Aggregation: Create calculated metrics like conversion rates using `CASE` statements.
+- Joins: Combine multiple tables to derive meaningful insights.
+- Recursive Queries: Build hierarchies, such as product category relationships.
 
 
 ## 🔢 Core Analyses
