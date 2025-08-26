@@ -5,7 +5,6 @@
 This project demonstrates the use of SQL to analyze sales data from the AdventureWorks2019 database and Google Analytics datasets. By leveraging advanced SQL techniques, the project uncovers key business insights, including sales trends, customer acquisition patterns, inventory management metrics, and the effectiveness of promotions. The analysis helps inform data-driven decision-making to optimize business performance.
 
 
-
 ## 🔄 Project Details
 
 - **Platform**: Google BigQuery
@@ -14,16 +13,14 @@ This project demonstrates the use of SQL to analyze sales data from the Adventur
 - **My BigQuery Project Link**: [AdventureWorks Sales Analysis Project](https://console.cloud.google.com/bigquery?sq=96321305112:ec7c7ec038c546edb6ca3b88c2944115)
 
 
+## 🔎 Business Objectives
 
-## 🔎 Key Objectives
-
-1. Analyze monthly and yearly sales trends.
-2. Identify high-performing subcategories and regions.
-3. Evaluate the financial impact of discounts and promotions.
-4. Track customer acquisition and retention over time.
-5. Optimize inventory by comparing stock levels to sales.
-6. Visualize product category hierarchies and sales contributions.
-
+1. Revenue Optimization – Detect sales trends across months and years to identify growth drivers.
+2. Market Segmentation – Highlight top-performing product subcategories and regions.
+3. Promotion Effectiveness – Quantify the ROI of seasonal discounts and marketing offers.
+4. Customer Lifecycle Management – Track acquisition, retention, and repeat purchase behavior.
+5. Inventory Efficiency – Benchmark stock levels against sales performance to avoid overstocking or shortages.
+6. Digital Conversion Funnel – Align Google Analytics data with sales outcomes to measure customer intent and purchase conversion.
 
 
 ## 🔧 SQL Skills Demonstrated
@@ -36,44 +33,16 @@ This project demonstrates the use of SQL to analyze sales data from the Adventur
 - **Recursive Queries**: Build hierarchies, such as product category relationships.
 
 
+## 🔢 Core Analyses
 
-## 🔢 Queries Included
-
-### 1. Monthly Sales Summary by Product Subcategory
-Summarizes total sales, order quantities, and distinct order counts by product subcategory for each month.
-
-### 2. Yearly Sales Growth by Subcategory
-Identifies the subcategories with the highest growth rates, providing insights for strategic decision-making.
-
-### 3. Top Territories by Order Volume
-Ranks territories based on order volumes, highlighting regions with the highest performance.
-
-### 4. Total Discount Costs by Subcategory
-Calculates the financial impact of discounts for various subcategories.
-
-### 5. Tracking New Customers by Month
-Tracks new customer acquisition trends to aid retention and marketing strategies.
-
-### 6. Stock Levels and Monthly Changes
-Analyzes monthly stock changes to ensure efficient inventory management.
-
-### 7. Stock-to-Sales Ratio
-Calculates the stock-to-sales ratio for each product to evaluate inventory efficiency.
-
-### 8. Conversion Metrics from Google Analytics
-Analyzes product view, add-to-cart, and purchase rates to understand customer behavior.
-
-### 9. Product Category Hierarchy and Sales Contributions
-Uses recursive queries to visualize product category relationships and calculates total sales per subcategory.
-
-
-
-## 📊 Dataset
-
-The project uses the following datasets:
-- **AdventureWorks2019**: A fictional sales and manufacturing database provided by Microsoft, containing detailed sales, product, and customer data.
-- **Google Analytics Public Data**: Sample data from Google's BigQuery public datasets, offering insights into eCommerce user behavior.
-
+1. Monthly Sales Summary – Subcategory performance by volume and revenue.
+2. Yearly Growth Analysis – Top growth subcategories to guide investment strategies.
+3. Regional Sales Ranking – Top territories by order volume for geo-based sales prioritization.
+4. Promotion ROI – Cost and benefit of discount programs by subcategory.
+5. Customer Acquisition & Retention – Month-over-month tracking of new vs. repeat buyers.
+6. Inventory vs. Sales – Stock movement and stock-to-sales ratio to minimize carrying costs.
+7. E-Commerce Funnel (GA Data) – Product views → cart additions → purchases.
+8. Product Hierarchy Visualization – Parent-child category mapping with contribution to total sales.
 
 
 ## 🕵️ Insights Gained
@@ -85,14 +54,14 @@ The project uses the following datasets:
 - Key trends in customer acquisition and retention.
 
 
+## 📈 Business Impact
+This analysis demonstrates how SQL-powered insights can transform raw operational and marketing data into strategic decision frameworks. By aligning sales, promotions, customer behavior, and inventory data, businesses can:
 
-## 📈 Conclusion
-
-By analyzing trends, evaluating performance, and identifying key drivers of business success, this project serves as a blueprint for data-driven decision-making in sales and marketing.
-
+1. Increase top-line revenue by focusing on high-performing categories and regions.
+2. Improve customer retention with tailored lifecycle strategies.
+3. Reduce operational costs through smarter inventory planning.
+4. Enhance digital conversion rates by integrating online behavior with actual purchase data.
 
 ## 👩‍💻 Author
 
 **Sapphie Nguyen**
-
----
